@@ -17,7 +17,7 @@ import static org.mockito.Mockito.verify;
 @EnableEncryptionDummy
 @ImportAutoConfiguration(AuditingConfig.class)
 @SpringBootTest(classes = EncryptionLogger.class)
-class EncryptionLoggerTest {
+class DecryptionLoggerTest {
     @Autowired
     private Encryptable dummy;
 
